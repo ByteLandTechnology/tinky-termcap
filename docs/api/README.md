@@ -1,3 +1,7 @@
+**tinky-termcap**
+
+---
+
 # tinky-termcap
 
 Terminal capability detection library for [Tinky](https://github.com/ByteLandTechnology/tinky) applications. Provides React hooks and utilities for detecting terminal features like background color, Kitty keyboard protocol support, and modifyOtherKeys mode.
@@ -12,7 +16,7 @@ Terminal capability detection library for [Tinky](https://github.com/ByteLandTec
 
 ## Attribution
 
-This project is based on the terminal capability detection implementation from [gemini-cli](https://github.com/google-gemini/gemini-cli).
+This project is based on the terminal capability detection implementation from [gemini-cli](https://github.com/google-gemini/gemini-cli). We are grateful to the Gemini team for sharing their work under the Apache 2.0 license.
 
 ## Installation
 
@@ -284,4 +288,4 @@ npm run docs
 
 Apache-2.0
 
-See [LICENSE](./LICENSE) for details.
+See [LICENSE](_media/LICENSE) for details.

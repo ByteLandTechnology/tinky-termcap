@@ -1,49 +1,45 @@
 {
-  "name": "tinky",
+  "name": "tinky-termcap",
   "version": "0.1.0",
-  "description": "React for CLIs, re-imagined with the Taffy engine",
+  "description": "Terminal capability detection for Tinky - React hooks for Kitty protocol, background color, terminal name detection",
   "keywords": [
-    "react",
-    "ink",
-    "taffy",
-    "cli",
     "terminal",
-    "layout-engine",
-    "flexbox",
-    "grid",
-    "renderer"
+    "capability",
+    "kitty",
+    "xterm",
+    "tinky",
+    "react",
+    "hooks"
   ],
-  "homepage": "https://github.com/ByteLandTechnology/tinky#readme",
+  "homepage": "https://github.com/ByteLandTechnology/tinky-termcap#readme",
   "bugs": {
-    "url": "https://github.com/ByteLandTechnology/tinky/issues"
+    "url": "https://github.com/ByteLandTechnology/tinky-termcap/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ByteLandTechnology/tinky.git"
+    "url": "git+https://github.com/ByteLandTechnology/tinky-termcap.git"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": {
-    "name": "ByteLandTechnology"
+    "name": "ByteLand Technology Limited"
   },
   "type": "module",
   "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "./lib/*"
+  ],
   "scripts": {
-    "test": "tsc",
+    "test": "bun test",
     "build": "tsc && npm run docs",
     "lint": "eslint src tests",
     "prepublish": "npm run build",
     "prepare": "husky",
     "docs": "typedoc --plugin typedoc-plugin-markdown --disableSources --out docs/api && prettier --write docs/api"
   },
-  "dependencies": {
-    "tslint": "^5.20.1",
-    "typescript": "^5.9.3"
+  "peerDependencies": {
+    "tinky": "^1.1.2"
   },
-  "files": [
-    "./bin/*",
-    "./lib/*"
-  ],
-  "typings": "./lib/index.d.ts",
   "devDependencies": {
     "@commitlint/cli": "^20.3.0",
     "@commitlint/config-conventional": "^20.3.0",
@@ -51,12 +47,17 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^12.0.0",
     "@semantic-release/npm": "^13.1.3",
+    "@types/bun": "^1.3.6",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.2",
     "eslint-plugin-react": "^7.37.5",
     "husky": "^9.1.7",
     "jiti": "^2.6.1",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.4",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "typedoc": "^0.28.16",
     "typedoc-plugin-markdown": "^4.9.0",
     "typescript-eslint": "^8.53.0"
