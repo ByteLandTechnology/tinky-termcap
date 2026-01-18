@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/ByteLandTechnology/tinky-termcap/compare/v1.0.0...v1.0.1) (2026-01-18)
+
+### 📦 Build
+
+- install conventional-changelog dependencies and fix changelog format ([42f95bf](https://github.com/ByteLandTechnology/tinky-termcap/commit/42f95bf1671f4e2b66b681d177b52de638caf9bb))
+
 ## 1.0.0 (2026-01-18)
 
 - chore: add GitHub Actions release workflow ([d915fe6](https://github.com/ByteLandTechnology/tinky-termcap/commit/d915fe6))

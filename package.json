@@ -1,6 +1,6 @@
 {
   "name": "tinky-termcap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Terminal capability detection for Tinky - React hooks for Kitty protocol, background color, terminal name detection",
   "keywords": [
     "terminal",
