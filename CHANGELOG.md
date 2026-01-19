@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/ByteLandTechnology/tinky-termcap/compare/v1.0.1...v1.0.2) (2026-01-19)
+
+### 📦 Build
+
+- migrate to ESM and upgrade tsconfig ([7d35671](https://github.com/ByteLandTechnology/tinky-termcap/commit/7d356717654c06270518a61bcf1004a31756e02f))
+
 ## [1.0.1](https://github.com/ByteLandTechnology/tinky-termcap/compare/v1.0.0...v1.0.1) (2026-01-18)
 
 ### 📦 Build
