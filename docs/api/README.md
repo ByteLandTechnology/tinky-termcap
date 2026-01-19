@@ -16,7 +16,7 @@ Terminal capability detection library for [Tinky](https://github.com/ByteLandTec
 
 ## Attribution
 
-This project is based on the terminal capability detection implementation from [gemini-cli](https://github.com/google-gemini/gemini-cli). We are grateful to the Gemini team for sharing their work under the Apache 2.0 license.
+This project is based on the terminal capability detection implementation from [gemini-cli](https://github.com/google-gemini/gemini-cli).
 
 ## Installation
 
