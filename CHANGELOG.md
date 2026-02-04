@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/ByteLandTechnology/tinky-termcap/compare/v1.0.2...v1.0.3) (2026-02-04)
+
+### 🔧 Chores
+
+- **deps:** update tinky peer dependency to >=1.4.3 ([7957d3d](https://github.com/ByteLandTechnology/tinky-termcap/commit/7957d3d78eed6e2ceb9cb0cdaaa6c3701133dc75))
+
 ## [1.0.2](https://github.com/ByteLandTechnology/tinky-termcap/compare/v1.0.1...v1.0.2) (2026-01-19)
 
 ### 📦 Build
